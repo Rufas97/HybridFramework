@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-16T07:25:59 IST" name="Suite" finished-at="2023-11-16T07:26:24 IST" duration-ms="25405">
+  <suite started-at="2023-11-18T19:32:03 IST" name="Suite" finished-at="2023-11-18T19:32:27 IST" duration-ms="23991">
     <groups>
     </groups>
-    <test started-at="2023-11-16T07:25:59 IST" name="Test" finished-at="2023-11-16T07:26:24 IST" duration-ms="25405">
+    <test started-at="2023-11-18T19:32:03 IST" name="Test" finished-at="2023-11-18T19:32:27 IST" duration-ms="23991">
       <class name="testscripts.regression.ValidateRegistrationUsingPOM">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateRegistrationUsingPOM@19932c16]" started-at="2023-11-16T07:26:12 IST" name="setup" finished-at="2023-11-16T07:26:16 IST" duration-ms="4223" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateRegistrationUsingPOM@19932c16]" started-at="2023-11-18T19:32:16 IST" name="setup" finished-at="2023-11-18T19:32:19 IST" duration-ms="3566" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1002d192]]>
+                <![CDATA[org.testng.TestRunner@1e721583]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateRegistrationTest(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateRegistrationUsingPOM@19932c16]" started-at="2023-11-16T07:26:16 IST" name="validateRegistrationTest" data-provider="getData" finished-at="2023-11-16T07:26:21 IST" duration-ms="4294" status="PASS">
+        <test-method signature="validateRegistrationTest(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateRegistrationUsingPOM@19932c16]" started-at="2023-11-18T19:32:19 IST" name="validateRegistrationTest" data-provider="getData" finished-at="2023-11-18T19:32:24 IST" duration-ms="4464" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,28 +29,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRegistrationTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateRegistrationUsingPOM@19932c16]" started-at="2023-11-16T07:26:21 IST" name="teardown" finished-at="2023-11-16T07:26:24 IST" duration-ms="3117" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateRegistrationUsingPOM@19932c16]" started-at="2023-11-18T19:32:24 IST" name="teardown" finished-at="2023-11-18T19:32:27 IST" duration-ms="3145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testscripts.regression.ValidateRegistrationUsingPOM -->
       <class name="testscripts.regression.ValidateLoginUsingPOM2">
-        <test-method is-config="true" signature="filesRead()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM2@4082ba93]" started-at="2023-11-16T07:25:59 IST" name="filesRead" finished-at="2023-11-16T07:25:59 IST" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="filesRead()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM2@4082ba93]" started-at="2023-11-18T19:32:03 IST" name="filesRead" finished-at="2023-11-18T19:32:03 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filesRead -->
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM2@4082ba93]" started-at="2023-11-16T07:26:00 IST" name="setup" finished-at="2023-11-16T07:26:05 IST" duration-ms="5208" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM2@4082ba93]" started-at="2023-11-18T19:32:04 IST" name="setup" finished-at="2023-11-18T19:32:09 IST" duration-ms="4645" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1002d192]]>
+                <![CDATA[org.testng.TestRunner@1e721583]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLoginTest(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM2@4082ba93]" started-at="2023-11-16T07:26:05 IST" name="validateLoginTest" data-provider="getData" finished-at="2023-11-16T07:26:09 IST" duration-ms="4001" status="PASS">
+        <test-method signature="validateLoginTest(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM2@4082ba93]" started-at="2023-11-18T19:32:09 IST" name="validateLoginTest" data-provider="getData" finished-at="2023-11-18T19:32:12 IST" duration-ms="3794" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM2@4082ba93]" started-at="2023-11-16T07:26:09 IST" name="teardown" finished-at="2023-11-16T07:26:12 IST" duration-ms="3126" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM2@4082ba93]" started-at="2023-11-18T19:32:12 IST" name="teardown" finished-at="2023-11-18T19:32:16 IST" duration-ms="3158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="closeReports()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM2@4082ba93]" started-at="2023-11-16T07:26:24 IST" name="closeReports" finished-at="2023-11-16T07:26:24 IST" duration-ms="325" status="PASS">
+        <test-method is-config="true" signature="closeReports()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM2@4082ba93]" started-at="2023-11-18T19:32:27 IST" name="closeReports" finished-at="2023-11-18T19:32:27 IST" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReports -->
